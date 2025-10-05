@@ -1,0 +1,64 @@
+nav {
+  background-color: #1e1e2f;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00c6ff;
+}
+
+nav .welcome-message {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+nav .logout-btn {
+  background-color: #e74c3c;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav .logout-btn:hover {
+  background-color: #c0392b;
+}
+
+nav .login-link,
+nav .signup-link {
+  margin-left: 10px;
+  background-color: #2ecc71;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+nav .signup-link {
+  background-color: #3498db;
+}
+
+nav .login-link:hover {
+  background-color: #27ae60;
+}
+
+nav .signup-link:hover {
+  background-color: #2980b9;
+}

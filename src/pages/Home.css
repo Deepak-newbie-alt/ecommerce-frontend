@@ -1,0 +1,72 @@
+
+.home-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.shop-now-btn {
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+  background-color: #2980b9;
+}
+
+.trending-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.trending-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.trending-heading::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #3498db;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
