@@ -18,6 +18,12 @@ function Login({setUser}){
             alert("Password must be at least 6 characters");
             return;
         }
+        const existingUsers=JSON.parse(localStorage.getItem("users"))||[];
+        const validUser=existingUsers.find(user => user.email === email && user.pass === pass);
+        if(!validUser){
+            alert("Invalid credentials")
+            return;
+        }
         const user={email};
         localStorage.setItem("user",JSON.stringify(user));
         setUser(user);
